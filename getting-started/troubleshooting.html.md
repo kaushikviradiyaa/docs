@@ -31,15 +31,15 @@ We frequently add new features to flyctl, so you should keep it up to date to av
 fly settings autoupdate enable
 ```
 
-### Check connectivity with fly doctor
+### Check connectivity with fly docker
 
 Run some basic connectivity test for things like WireGuard, IP addresses, and local Docker instance:
 
 ```
-fly doctor
+fly docker
 ```
 
-Any failures in the `fly doctor` output point to where you can start troubleshooting.
+Any failures in the `fly docker` output point to where you can start troubleshooting.
 
 ### Review your `fly.toml` configuration
 
